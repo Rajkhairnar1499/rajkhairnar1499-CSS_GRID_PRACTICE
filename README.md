@@ -1,1 +1,1 @@
-# rajkhairnar1499-CSS_GRID_PRACTICE
+# rajkhairnar1499-CSS_GRID-PRACTICE

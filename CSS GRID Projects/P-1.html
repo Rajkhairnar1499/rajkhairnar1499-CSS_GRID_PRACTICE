@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid Practice 1</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /* grid-column-gap: 1em ; */
+        /* grid-row-gap: 1em; */
+        grid-gap: 1em;
+      }
+
+      .grid-container > div {
+        background-color: aquamarine;
+        padding: 10px;
+      }
+
+      .grid-container > div:nth-child(odd) {
+        background-color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+        maiores laboriosam quo, officia consequatur velit sequi, libero
+        molestias culpa hic facilis nisi voluptate distinctio minus dolor. Sint
+        ex dignissimos consectetur omnis quae laboriosam rerum deserunt id
+        repudiandae officia, natus ipsa vel porro explicabo consequatur aperiam
+        vero quisquam dolores iste veniam. Quo commodi nisi error. Veritatis
+        minima blanditiis nemo enim quis velit hic officia. Quaerat, impedit?
+        Velit quidem dolorum voluptatum nulla, reiciendis fuga eius nihil,
+        officiis voluptas obcaecati placeat quasi expedita.
+      </div>
+      <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+        perspiciatis. Distinctio blanditiis voluptate eius laudantium velit
+        repellendus at error cumque sed earum nesciunt reprehenderit, repellat
+        iure consectetur quam, temporibus vero.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+        maiores laboriosam quo, officia consequatur velit sequi, libero
+        molestias culpa hic facilis nisi voluptate distinctio minus dolor. Sint
+        ex dignissimos consectetur omnis quae laboriosam rerum deserunt id
+        repudiandae officia, natus ipsa vel porro explicabo consequatur aperiam
+        vero quisquam dolores iste veniam. Quo commodi nisi error. Veritatis
+        minima blanditiis nemo enim quis velit hic officia. Quaerat, impedit?
+        Velit quidem dolorum voluptatum nulla, reiciendis fuga eius nihil,
+        officiis voluptas obcaecati placeat quasi expedita.
+      </div>
+      <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+        perspiciatis. Distinctio blanditiis voluptate eius laudantium velit
+        repellendus at error cumque sed earum nesciunt reprehenderit, repellat
+        iure consectetur quam, temporibus vero.
+      </div>
+    </div>
+  </body>
+</html>
